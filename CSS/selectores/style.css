@@ -1,0 +1,39 @@
+/* SELECTOR POR ETIQUETA */
+p {
+  color: blue;
+}
+
+/* SELECTOR POR ID */
+#subtitulo1 {
+  color: orange;
+}
+
+#subtitulo2 {
+  color: green;
+}
+
+/* SELECTOR POR CLASE */
+.parrafo {
+  color: black;
+}
+
+/* SELECTOR UNIVERSAL */
+* {
+  border: 1px solid red;
+}
+
+/* SELECTOR POR ATRIBUTO */
+a[href="http://google.com"]
+{
+  color: lightblue;
+}
+
+a[href="http://twitter.com"]
+{
+  color: green;
+}
+
+a[href="http://instagram.com"]
+{
+  color: pink;
+}

@@ -1,0 +1,16 @@
+h1 {
+  color: rgb(0, 0, 246);
+}
+
+h1{
+  color: red;
+}
+
+body{
+  background-color: rgb(28, 28, 28);
+  color: hsl(0, 78%, 98%)
+}
+
+img{
+  width: 200px;
+}
