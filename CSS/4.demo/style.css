@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  background-color: #1e2436;
+  font-family: Helvetica, sans-serif;
+  background-image: url(https://images8.alphacoders.com/122/1227043.jpg);
+  background-size: cover;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: orange
+}
+
+header{
+  height: 100px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img{
+  width: 30%;
+}
+
+header ul{
+  list-style-type: none;
+  display:flex;
+  gap: 20px;
+}
+
+section{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+section > img{
+  width: 300px;
+}
+
+section p{
+  padding: 0 40px;
+  text-align: justify;
+  margin-bottom: 40px;
+}

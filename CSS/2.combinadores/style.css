@@ -1,0 +1,22 @@
+/*COMBINADOR DE HIJOS DIRECTOS*/
+main > ul > li{
+  color: #ffa500
+}
+/* #scifi > li{
+  color: blue
+} */
+
+/* COMBINADOR DE DESCENCIENTES */
+/* main li{
+  color: green
+} */
+
+/* COMBINADOR DE HERMANOS ADYACENTES */
+/* #terror > li + li{
+  color: red;
+} */
+
+/* COMBINADOR GENERAL DE HERMANOS */
+#terror >li ~ li{
+  color: red;
+}
