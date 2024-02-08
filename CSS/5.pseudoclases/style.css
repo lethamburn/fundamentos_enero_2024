@@ -1,0 +1,31 @@
+button:active {
+  background-color: orange;
+}
+
+button:disabled {
+  background-color: red;
+}
+
+ul li:last-child {
+  color: orange;
+}
+
+input:focus {
+  background-color: aquamarine;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+ol li:nth-child(even) {
+  color: red;
+}
+
+h2::after {
+  content: "🧑🏼‍🚀";
+}
+h2::before {
+  content: "🤴🏻";
+}

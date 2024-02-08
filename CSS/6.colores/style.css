@@ -1,0 +1,17 @@
+h1 {
+  /* color: crimson; */
+  /*  background-color: green */
+  /* POR NOMBRE */
+  /* color: cadetblue; */
+  /* POR RGB */
+  color: rgb(27, 161, 103);
+  /* POR HEXADECIMALES */
+  color: #1f1f1f;
+}
+
+body {
+  background: rgb(119,122,251);
+  background: linear-gradient(180deg, rgba(119,122,251,1) 0%, rgba(0,0,0,1) 100%);
+  background-size: cover;
+  height: 100vh
+}
