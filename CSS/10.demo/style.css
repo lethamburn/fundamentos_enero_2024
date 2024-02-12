@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(28, 28, 28);
+  color: rgb(239, 239, 239);
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0; 
+}
+
+img{
+  width:200px;
+  height: 300px;
+  object-fit: cover;
+  border: 10px solid white;
+  transition: 0.4s;
+}
+
+main:hover img:not(:hover){
+  filter: saturate(0%);
+  opacity: 30%;
+}
+
+main{
+  margin: 40px;
+  border: 2px white solid;
+  padding: 20px;
+}

@@ -1,0 +1,11 @@
+li{
+ display: inline;
+ margin: 0 10px;
+}
+
+p{
+  display:block;
+  border: 2px solid red;
+  width: fit-content;
+ margin: 0 auto;
+}

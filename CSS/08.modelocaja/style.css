@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  width: 100px;
+  height: 100px;
+  padding: 20px 10px 5px 2px;
+  border: 1px red solid;
+  border-radius: 5px ;
+  background-color: orange;
+  margin: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  overflow: auto;
+}
