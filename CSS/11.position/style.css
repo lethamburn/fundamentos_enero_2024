@@ -1,0 +1,28 @@
+h1,
+h2,
+button {
+  border: 2px solid red;
+  width: fit-content;
+}
+
+body {
+  height: 200vh;
+}
+
+h1 {
+  position: relative;
+  left: 80px;
+}
+
+h2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ 
+}
+
+button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
