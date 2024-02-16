@@ -1,0 +1,25 @@
+:root {
+  --primary: #ecdace;
+  --secondary: #000000;
+  --transparent: #00000082;
+  --font-xl: 43px;
+  --font-l: 35px;
+  --font-m: 25px;
+  --font-s: 20px;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+h1 {
+  color: var(--secondary);
+  font-size: var(--font-xl)
+}
+
+p {
+  background-color: var(--transparent);
+  color: var(--primary);
+  font-size: var(--font-s)
+}

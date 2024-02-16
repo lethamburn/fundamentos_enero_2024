@@ -1,0 +1,26 @@
+@keyframes rojoAVerde {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: green;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation: aparecer 2s;
+}
+
+body {
+}
