@@ -82,3 +82,29 @@ for (let i = 0; i < animales.length; i++) {
   const animal = animales[i];
   console.log(animal);
 }
+
+//FOREACH
+const peliculas = ["Titanic", "Harry Potter", "X-Men", "Forest Gump"];
+
+peliculas.forEach((pelicula, i) => {
+  if (i < 2) {
+    console.log(pelicula);
+  }
+});
+
+//FOR IN
+const superman = {
+  nombre: "Superman",
+  nombreReal: "Kal-El",
+  nombreHumano: "Clark Kent",
+  profesionHumana: "Periodista",
+  vivo: true,
+  planeta: "Krypton",
+  pareja: "Lois Lane",
+};
+
+for (const propiedad in superman) {
+  console.log(
+    "La propiedad: " + propiedad + " tiene el valor: " + superman[propiedad]
+  );
+}
