@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #686268;
+  --tertiary-color: #212121;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  margin: 10px;
+  border: 1px dashed var(--primary-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--tertiary-color);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  min-height: 80vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#peliculas{
+  display:grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+p:hover.Visto{
+  background-color: rgba(1, 160, 1, 0.521);
+}
+
+p:hover.Viendo{
+  background-color: rgba(255, 166, 0, 0.531);
+}
+
+p:hover.Pendiente{
+  background-color: rgba(255, 0, 0, 0.523);
+}

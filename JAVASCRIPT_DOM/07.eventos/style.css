@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+body {
+  color: #171717;
+  background-color: #dcdcdc;
+  transition: 0.2s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark {
+  color: #dcdcdc;
+  background-color: #171717;
+  font-family: monospace;
+}

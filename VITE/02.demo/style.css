@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #121212;
+  --secondary-color: #87ceeb;
+  --tertiary-color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+.dark {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header > img {
+  height: 80px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#perrosSection img{
+  border-radius: 50%;
+}
