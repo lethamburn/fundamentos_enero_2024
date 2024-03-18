@@ -27,6 +27,10 @@ h1 {
   letter-spacing: 2px;
 }
 
+a {
+  color: inherit;
+}
+
 header {
   height: 100px;
   display: flex;
@@ -39,19 +43,29 @@ header > img {
   height: 80px;
 }
 
-section {
+main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
+  min-height: 80vh;
+  text-align: center;
 }
 
-section img {
+main img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
-#perrosSection img{
-  border-radius: 50%;
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.perrotumbado {
+  border-radius: 0;
+  width: 100%;
+  height: 600px;
 }
